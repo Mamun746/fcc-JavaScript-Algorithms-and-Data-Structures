@@ -1,0 +1,1 @@
+{"index.js":"function sumPrimes(num) {\n  let array=[]\n\n  for(let i=2;i<=num;i++){\n    if(isPrimeNumber(i)){\n      array.push(i)\n    }\n\n    \n  }\n  return array.reduce((a,b)=>{\n    return a+b\n  })\n}\n\nfunction isPrimeNumber(num){\n  for(let x=2;x<num;x++){\n    if(num%x===0){\n      return false\n    }\n  }\n  return true\n}\n\nsumPrimes(10);"}

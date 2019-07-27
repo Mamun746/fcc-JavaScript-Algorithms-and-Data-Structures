@@ -1,0 +1,1 @@
+{"index.js":"function destroyer(arr) {\n    // Remove all the values\n    let args=Array.from(arguments)\n    args.splice(0,1)\n    var target=args\n    let result=[]\n\n    for(let num of arr){\n        if(target.indexOf(num)===-1){\n            result.push(num)\n        }\n    }\n    return result;\n  }\n  \n  destroyer([1, 2, 3, 1, 2, 3], 2, 3);"}

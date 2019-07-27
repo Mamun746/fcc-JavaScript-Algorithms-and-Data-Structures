@@ -1,0 +1,1 @@
+{"index.js":"function uniteUnique(arr) {\n   \n   let args=[].concat(...arguments) \n    return [...new Set(args)]\n    \n  }\n  \n  uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);"}

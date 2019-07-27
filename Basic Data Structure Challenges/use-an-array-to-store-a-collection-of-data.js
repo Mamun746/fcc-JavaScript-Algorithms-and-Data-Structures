@@ -1,0 +1,1 @@
+let yourArray=['mamun',1,true,'liza','makku']; // change this line
